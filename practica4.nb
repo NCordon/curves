@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     85635,       2314]
-NotebookOptionsPosition[     78901,       2109]
-NotebookOutlinePosition[     79241,       2124]
-CellTagsIndexPosition[     79198,       2121]
+NotebookDataLength[     95570,       2588]
+NotebookOptionsPosition[     87706,       2349]
+NotebookOutlinePosition[     88046,       2364]
+CellTagsIndexPosition[     88003,       2361]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -128,7 +128,7 @@ Cell[BoxData[{
        RowBox[{
         RowBox[{"GG", "[", "X", "]"}], "[", 
         RowBox[{"u", ",", "v"}], "]"}]}], "}"}]}], "}"}]}], 
-  "\[IndentingNewLine]"}], "\n", 
+  "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"detpff", "[", "X_", "]"}], "[", 
@@ -2104,7 +2104,247 @@ Cell[BoxData[
   3.6763304577501*^9}, {3.676330512381535*^9, 3.676330526078586*^9}, {
   3.676330599017933*^9, 3.6763307106945057`*^9}, {3.676331374614509*^9, 
   3.67633147660958*^9}, {3.676332056361023*^9, 3.676332148827394*^9}, {
-  3.676332187117628*^9, 3.676332304610406*^9}}]
+  3.676332187117628*^9, 3.676332304610406*^9}}],
+
+Cell[TextData[{
+ StyleBox["\n",
+  FontFamily->"Bookman Old Style",
+  FontColor->RGBColor[1, 0, 0]],
+ "5. Dibujar el helicoide, la superficie de Scherk y la superficie de Enneper \
+(ver abajo sus parametrizaciones). Demostrar que son minimales. Calcular la \
+curvatura de Gauss en todos los casos."
+}], "Text",
+ CellChangeTimes->{{3.481367964247466*^9, 3.481368228688594*^9}, {
+   3.481368382146854*^9, 3.481368414576827*^9}, {3.481368559975606*^9, 
+   3.481368567249672*^9}, {3.4813737162358294`*^9, 3.481373725729766*^9}, {
+   3.481373907663597*^9, 3.4813740360229597`*^9}, {3.4813747218670187`*^9, 
+   3.481374753576564*^9}, {3.481374797943275*^9, 3.481374839274405*^9}, {
+   3.481375157835619*^9, 3.481375221097959*^9}, {3.481375331168456*^9, 
+   3.4813753456777153`*^9}, {3.481375626103581*^9, 3.481375704911669*^9}, {
+   3.481429174030676*^9, 3.481429198460902*^9}, {3.481518629960277*^9, 
+   3.481518633662833*^9}, {3.4820306301269083`*^9, 3.482030707137684*^9}, {
+   3.511525593390044*^9, 3.511525594003935*^9}, {3.511525695904889*^9, 
+   3.511525824748209*^9}, {3.5115258806427383`*^9, 3.511526067636278*^9}, {
+   3.5115261637537413`*^9, 3.5115261737113533`*^9}, {3.511526749205117*^9, 
+   3.5115268342667503`*^9}, {3.511527218789481*^9, 3.511527342363304*^9}, {
+   3.511527381666314*^9, 3.51152752258177*^9}, 3.511527591836956*^9, {
+   3.511527771273312*^9, 3.5115277936652117`*^9}, {3.511527882884001*^9, 
+   3.511527892292153*^9}, {3.511528127118339*^9, 3.511528155838011*^9}, {
+   3.511595096073509*^9, 3.511595100967656*^9}, {3.511595151939973*^9, 
+   3.511595264020767*^9}, 3.511595357403636*^9, {3.541745069639826*^9, 
+   3.541745099827323*^9}, {3.5417451970227137`*^9, 3.541745197959446*^9}, {
+   3.541745239852086*^9, 3.541745242747897*^9}, {3.541745312925*^9, 
+   3.541745362149313*^9}, {3.54182781390163*^9, 3.5418278157340508`*^9}, {
+   3.541827964238361*^9, 3.541828087879663*^9}, {3.5418285297872868`*^9, 
+   3.541828533112232*^9}, {3.5418286704747353`*^9, 3.541828782650545*^9}, {
+   3.541828952523991*^9, 3.5418290460767937`*^9}, {3.541829081971154*^9, 
+   3.541829112105576*^9}, {3.541829414379921*^9, 3.5418294151612587`*^9}, {
+   3.541829481432012*^9, 3.5418294902812138`*^9}, {3.54182953929906*^9, 
+   3.5418295624497147`*^9}, 3.541829998413471*^9, {3.672658210631544*^9, 
+   3.672658218951893*^9}, {3.6726583423095293`*^9, 3.6726584768716373`*^9}, 
+   3.672658524836335*^9, {3.674462393737789*^9, 3.6744624153576393`*^9}, {
+   3.674464435032838*^9, 3.674464477704616*^9}, {3.67446510421279*^9, 
+   3.6744651047280493`*^9}, {3.674465135820516*^9, 3.67446513849177*^9}, 
+   3.6764174690744553`*^9},
+ FontSize->16]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Helicoide",
+ FontFamily->"Nimbus Sans L",
+ FontSize->14,
+ FontVariations->{"Underline"->True}]], "Subsection",
+ CellChangeTimes->{{3.676417640272895*^9, 3.676417642311358*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"helicoide", "[", 
+   RowBox[{"u_", ",", "v_"}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"v", " ", 
+     RowBox[{"Cos", "[", "u", "]"}]}], ",", 
+    RowBox[{"v", " ", 
+     RowBox[{"Sin", "[", "u", "]"}]}], ",", "u"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.676417475970612*^9, 3.676417477254377*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ParametricPlot3D", "[", 
+  RowBox[{
+   RowBox[{"helicoide", "[", 
+    RowBox[{"u", ",", "v"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"u", ",", 
+     RowBox[{
+      RowBox[{"-", "2"}], "Pi"}], ",", 
+     RowBox[{"2", "Pi"}]}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"v", ",", 
+     RowBox[{
+      RowBox[{"-", "2"}], "Pi"}], ",", 
+     RowBox[{"2", "Pi"}]}], "}"}], ",", " ", 
+   RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.67641749186948*^9, 3.676417625129157*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"H", "[", "helicoide", "]"}], "[", 
+  RowBox[{"u", ",", "v"}], "]"}]], "Input",
+ CellChangeTimes->{{3.67641766604043*^9, 3.6764176751931877`*^9}}]
+}, Open  ]],
+
+Cell["\tLuego la superficie es minimal", "Subsection",
+ CellChangeTimes->{{3.6764176844436007`*^9, 3.676417691227685*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\tCalculamos su curvatura de Gauss", "Subsection",
+ CellChangeTimes->{{3.676417698821241*^9, 3.6764177046339912`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"K", "[", "helicoide", "]"}], "[", 
+  RowBox[{"u", ",", "v"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6764177060953407`*^9, 3.676417712543075*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Superficie de Scherk",
+ FontFamily->"Nimbus Sans L",
+ FontSize->14,
+ FontVariations->{"Underline"->True}]], "Subsection",
+ CellChangeTimes->{{3.6764178663658667`*^9, 3.676417869856538*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Scherk", "[", 
+   RowBox[{"u_", ",", "v_"}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{"u", ",", "v", ",", 
+    RowBox[{"Log", "[", 
+     FractionBox[
+      RowBox[{"Cos", "[", 
+       RowBox[{"v", "+", "1"}], "]"}], 
+      RowBox[{"Cos", "[", 
+       RowBox[{"u", "+", "2"}], "]"}]], "]"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.676417386322604*^9, 3.676417386696952*^9}, {
+  3.6764174750471363`*^9, 3.676417482929474*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ParametricPlot3D", "[", 
+  RowBox[{
+   RowBox[{"Scherk", "[", 
+    RowBox[{"u", ",", "v"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"u", ",", 
+     RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"v", ",", 
+     RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", " ", 
+   RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.676417733190525*^9, 3.6764177797554083`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"H", "[", "Scherk", "]"}], "[", 
+  RowBox[{"u", ",", "v"}], "]"}]], "Input",
+ CellChangeTimes->{{3.67641766604043*^9, 3.6764176751931877`*^9}, {
+  3.676417803443685*^9, 3.676417809055046*^9}}]
+}, Open  ]],
+
+Cell["\tLuego la superficie es minimal", "Subsection",
+ CellChangeTimes->{{3.6764176844436007`*^9, 3.676417691227685*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\tCalculamos su curvatura de Gauss", "Subsection",
+ CellChangeTimes->{{3.676417698821241*^9, 3.6764177046339912`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"K", "[", "Scherk", "]"}], "[", 
+    RowBox[{"u", ",", "v"}], "]"}], " ", "//", "FullSimplify"}], "//", 
+  "PowerExpand"}]], "Input",
+ CellChangeTimes->{{3.6764177060953407`*^9, 3.676417712543075*^9}, {
+  3.6764178192963343`*^9, 3.6764178325031233`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Superficie de Enneper",
+ FontFamily->"Nimbus Sans L",
+ FontSize->14,
+ FontVariations->{"Underline"->True}]], "Subsection",
+ CellChangeTimes->{{3.676417887378181*^9, 3.6764178916680727`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"enneper", "[", 
+    RowBox[{"u_", ",", "v_"}], "]"}], ":=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"u", "-", 
+      RowBox[{
+       RowBox[{"u", "^", "3"}], "/", "3"}], "+", 
+      RowBox[{"u", " ", 
+       RowBox[{"v", "^", "2"}]}]}], ",", 
+     RowBox[{"v", "-", 
+      RowBox[{
+       RowBox[{"v", "^", "3"}], "/", "3"}], "+", 
+      RowBox[{
+       RowBox[{"u", "^", "2"}], " ", "v"}]}], ",", 
+     RowBox[{
+      RowBox[{"u", "^", "2"}], "-", 
+      RowBox[{"v", "^", "2"}]}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.676417484111106*^9, 3.676417485662715*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ParametricPlot3D", "[", 
+  RowBox[{
+   RowBox[{"enneper", "[", 
+    RowBox[{"u", ",", "v"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"u", ",", 
+     RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"v", ",", 
+     RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", " ", 
+   RowBox[{"Boxed", "\[Rule]", "False"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "False"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.676417733190525*^9, 3.6764177797554083`*^9}, {
+  3.676417914629178*^9, 3.676417915621196*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"H", "[", "enneper", "]"}], "[", 
+  RowBox[{"u", ",", "v"}], "]"}]], "Input",
+ CellChangeTimes->{{3.67641766604043*^9, 3.6764176751931877`*^9}, {
+  3.676417803443685*^9, 3.676417809055046*^9}, {3.676417923430188*^9, 
+  3.676417925243484*^9}}]
+}, Open  ]],
+
+Cell["\tLuego la superficie es minimal", "Subsection",
+ CellChangeTimes->{{3.6764176844436007`*^9, 3.676417691227685*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\tCalculamos su curvatura de Gauss", "Subsection",
+ CellChangeTimes->{{3.676417698821241*^9, 3.6764177046339912`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"K", "[", "enneper", "]"}], "[", 
+  RowBox[{"u", ",", "v"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6764177060953407`*^9, 3.676417712543075*^9}, {
+  3.6764178192963343`*^9, 3.6764178325031233`*^9}, {3.6764179297637987`*^9, 
+  3.676417935435068*^9}}]
 }, Open  ]]
 },
 WindowSize->{1920, 1014},
@@ -2314,7 +2554,41 @@ Cell[CellGroupData[{
 Cell[76076, 2042, 132, 1, 47, "Subsection"],
 Cell[76211, 2045, 1227, 25, 86, "Input"],
 Cell[77441, 2072, 273, 6, 65, "Input"],
-Cell[77717, 2080, 1168, 26, 65, "Input"]
+Cell[77717, 2080, 1168, 26, 65, "Input"],
+Cell[78888, 2108, 2640, 40, 65, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81565, 2153, 200, 4, 47, "Subsection"],
+Cell[81768, 2159, 351, 10, 67, "Input"],
+Cell[82122, 2171, 584, 17, 65, "Input"],
+Cell[82709, 2190, 180, 4, 65, "Input"]
+}, Open  ]],
+Cell[82904, 2197, 122, 1, 47, "Subsection"],
+Cell[CellGroupData[{
+Cell[83051, 2202, 124, 1, 31, "Subsection"],
+Cell[83178, 2205, 181, 4, 65, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[83396, 2214, 213, 4, 47, "Subsection"],
+Cell[83612, 2220, 463, 13, 93, "Input"],
+Cell[84078, 2235, 498, 13, 65, "Input"],
+Cell[84579, 2250, 226, 5, 65, "Input"]
+}, Open  ]],
+Cell[84820, 2258, 122, 1, 47, "Subsection"],
+Cell[CellGroupData[{
+Cell[84967, 2263, 124, 1, 31, "Subsection"],
+Cell[85094, 2266, 313, 8, 65, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[85444, 2279, 214, 4, 47, "Subsection"],
+Cell[85661, 2285, 627, 20, 67, "Input"],
+Cell[86291, 2307, 548, 14, 65, "Input"],
+Cell[86842, 2323, 276, 6, 65, "Input"]
+}, Open  ]],
+Cell[87133, 2332, 122, 1, 47, "Subsection"],
+Cell[CellGroupData[{
+Cell[87280, 2337, 124, 1, 31, "Subsection"],
+Cell[87407, 2340, 283, 6, 65, "Input"]
 }, Open  ]]
 }
 ]
